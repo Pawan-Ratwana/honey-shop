@@ -36,7 +36,7 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: transparent;
-  padding: 30px 12%;
+  padding: 30px 13%;
   transition: all 0.5s ease;
 }
 
@@ -104,4 +104,86 @@ header {
 .nav-icons i:hover {
   color: var(--text-color);
   transform: scale(1.1);
+}
+
+section {
+  padding: 70px 13% 60px;
+}
+
+.home {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  /* grid-template-columns: repeat(2, 1fr); */
+  align-items: center;
+  gap: 2rem;
+  padding-top: 100px;
+  /* transition: all 2.5s ease; */
+}
+
+.home .home-text {
+  flex: 0 0 55%;
+  /* transform: scale(1) translateX(-12px); */
+}
+
+.home-text h1 {
+  font-size: var(--big-font);
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 3rem;
+  text-transform: capitalize;
+}
+
+.home-text h1 span {
+  color: var(--main-color);
+}
+
+.home .home-img {
+  flex: 0 0 45%;
+  /* transform: scale(1.1) translateX(12px); */
+}
+
+.home img {
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 35px;
+  background-color: var(--other-color);
+  color: var(--main-color);
+  font-size: var(--p-font);
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 3rem;
+  transition: all 0.5s ease;
+}
+
+.btn i {
+  vertical-align: middle;
+  margin-left: 5px;
+  font-size: 22px;
+}
+
+.btn:hover {
+  background-color: var(--main-color);
+  color: var(--bg-color);
+  box-shadow: 0 1px 25px #ff9f0d;
+}
+
+.btn2 {
+  display: inline-block;
+  font-size: var(--p-font);
+  color: var(--main-color);
+  margin-left: 30px;
+  font-weight: 500;
+  border-bottom: 3px solid var(--main-color);
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+
+.btn2:hover {
+  transform: scale(1.1) translateX(12px);
 }
