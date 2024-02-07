@@ -367,3 +367,60 @@ header.sticky {
   text-align: center;
   margin-top: 6rem;
 }
+
+/* review */
+
+.review-content {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.row {
+  /* background-color: var(--other-color);
+  border-radius: 3rem;
+  padding: 35px; */
+}
+
+.in-box {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.bx-img img {
+  width: 100%;
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+.bxx-text h4 {
+  font-size: 18px;
+  color: var(--text-color);
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.bxx-text h5 {
+  font-size: 15px;
+  color: var(--second-color);
+  margin-bottom: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.in-box p {
+  color: var(--second-color);
+  line-height: 25px;
+  font-size: var(--p-font);
+}
+
+.ratings i {
+  color: var(--main-color);
+  /* margin-right: 5px; */
+  font-size: 18px;
+}
